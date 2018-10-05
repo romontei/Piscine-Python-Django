@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Exercice 2</title>
+	</head>
+
+	<body>
+		<form>
+			<label>Firstname :</label>
+			<input id="firstname"	type="text">	<br>
+			<label>Name :</label>
+			<input id="name"		type="text">	<br>
+			<label>Age :</label>
+			<input id="age"			type="number">	<br>
+			<label>Phone :</label>
+			<input id="phone"		type="tel">		<br>
+			<label>Email :</label>
+			<input id="email"		type="email">	<br>
+
+			<label>Student at 42 ? :</label>
+			<input id="student"		type="checkbox"	value="student42">
+
+			<br>
+
+			<label>Male</label>
+			<input id="gender_male"		type="radio" name="gender" value="Male" checked>
+			<label>Female</label>
+			<input id="gender_female"	type="radio" name="gender" value="Female">
+			<label>Other</label>
+			<input id="gender_other"	type="radio" name="gender" value="Other">
+
+			<br>
+
+			<input type="button" value="Run that sexy Javascript !" onclick="displayFormContents();">
+		</form>
+	</body>
+
+	<script type="text/javascript" src="popup.js"></script>
+
+</html>
